@@ -19,3 +19,19 @@ function whileLoop(n)
   }
   return 'done';
 }
+
+function doWhileLoop(num)
+{
+  let i=0;
+  function inc(i)
+  {
+    i=i+1;
+    return i ;
+  }
+  do {
+console.log("I run once regardless.");}
+while (inc(i)<num) 
+  
+}
+  }
+}
