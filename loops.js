@@ -22,7 +22,7 @@ function whileLoop(n)
 
 function doWhileLoop(num)
 {
-  let i=0;
+var i=0;
   function inc()
   {
     i=i+1;
@@ -30,7 +30,7 @@ function doWhileLoop(num)
   }
   do {
 console.log("I run once regardless.");}
-while (inc()<num)
+while (inc()<num);
 
 }
   }
