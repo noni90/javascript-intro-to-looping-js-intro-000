@@ -11,7 +11,7 @@ function forLoop(array)
         array.push(`I am ${i} strange loops.`;);
       }
     }
-  
+
   }
 
 }
