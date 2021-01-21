@@ -19,3 +19,9 @@ function whileLoop(n)
   }
   return 'done';
 }
+function doWhileLoop(num)
+{
+  do while (n>0) {
+console.log("I run once regardless.");
+  }
+}
